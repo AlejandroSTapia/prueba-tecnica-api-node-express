@@ -37,8 +37,7 @@ const processText = (text) => {
 //volve a buscar el siguiente paréntesis que no contenga otros paréntesis dentro
     match = currentText.match(/\([^()]*\)/);
   }
-  //como es while, se repite y cuando no encuentra más paréntesis, sale del while y devuelve la lista de pasos
-  //dando como resultado ["Hola (Mundo)", "Hola odnuM"]
+
 
   return steps;
 }
