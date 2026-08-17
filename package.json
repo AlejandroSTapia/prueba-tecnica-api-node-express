@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+    "packageManager": "pnpm@10.22.0",
   "scripts": {
     "start": "node ./src/index.js",
     "test": "vitest run",
@@ -13,11 +14,6 @@
   "author": "",
   "license": "ISC",
   "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.22.0",
-      "onFail": "download"
-    }
   },
   "type": "module",
   "dependencies": {
