@@ -113,7 +113,7 @@ u → a
 
 Swagger:
 
-- Producción: https://tu-proyecto.vercel.app/api-docs
+- Producción: https://prueba-tecnica-api-node-express.vercel.app/api-docs
 - Local: http://localhost:3000/api-docs
 
 ## Tests
@@ -126,6 +126,10 @@ Los tests están implementados con Vitest y Supertest.
 
 ## Producción
 
-```text
-https://URL-REAL.vercel.app
-```
+API:
+
+https://prueba-tecnica-api-node-express.vercel.app
+
+Swagger:
+
+https://prueba-tecnica-api-node-express.vercel.app/api-docs
